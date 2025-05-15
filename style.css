@@ -1,0 +1,251 @@
+:root {
+	--table-radius: 0.5rem;
+	--accent-color: #414559;
+}
+
+/* Override Moodle Styles */
+
+.main-inner {
+	max-width: none !important;
+}
+
+#page.drawers {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* My Styles */
+
+.vik-table {
+	border-collapse: separate;
+	background-color: var(--accent-color);
+	width: 100%;
+	font-family: monospace;
+	font-size: 0.8rem;
+}
+
+.vik-table thead tr {
+	position: sticky;
+	top: 0; /* Sticks the header to the top of the container */
+	z-index: 1; /* Ensures the header stays above other content when scrolling */
+	background-color: var(
+		--accent-color
+	); /* Set a background color to prevent overlap issues */
+	color: #ffffff; /* Ensure header text color is visible */
+}
+
+.vik-table thead {
+	font-size: 1rem;
+}
+
+.vik-table thead tr {
+	background-color: var(--accent-color);
+	color: #ffffff;
+	text-align: center;
+}
+
+.vik-table td {
+	padding: 10px 20px;
+}
+
+.vik-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+	background-color: white;
+}
+
+.vik-table tbody tr:last-of-type {
+	border-bottom: 2px solid var(--accent-color);
+}
+
+.vik-table tbody tr#current-week .vik-week {
+	background-color: var(--accent-color);
+	color: white;
+}
+
+.vik-list ul li:not(:last-child) {
+	margin-bottom: 2px;
+}
+
+.vik-list ul {
+	list-style-type: none !important;
+	padding: 0;
+}
+
+.vik-list ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.vik-list ul a {
+	text-decoration: none;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.vik-objectives ul {
+	text-decoration: none;
+	list-style-type: none !important;
+	padding: 0;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+}
+
+/* .vik-table th:first-child,
+.vik-table td.vik-week {
+	white-space: nowrap;
+	width: 1%;
+}
+
+.vik-table .vik-week {
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
+	text-align: center;
+	transform: rotate(180deg);
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1rem;
+} */
+
+.vik-table .vik-cancelled {
+	color: #666;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	background-image: repeating-linear-gradient(
+		135deg,
+		#eee,
+		/* Color of the line */ #eee 5px,
+		/* Line thickness */ transparent 5px,
+		/* Transparent space starts after line thickness */ transparent 10px
+			/* Determines spacing between lines  */
+	);
+}
+
+.vik-table sup {
+	top: initial;
+	line-height: initial;
+	color: #aaa;
+}
+
+.vik-table .vik-total {
+	display: block;
+	text-align: right;
+}
+
+.vik-table .vik-item,
+.vik-legend .vik-item {
+	color: #fff;
+	padding: 8px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.vik-table .vik-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.vik-table .vik-quiz,
+.vik-legend .vik-quiz {
+	background-color: #df8e1d;
+}
+
+.vik-table .vik-assignment,
+.vik-legend .vik-assignment {
+	background-color: #40a02b;
+}
+
+.vik-table .vik-project,
+.vik-legend .vik-project {
+	background-color: #fe640b;
+}
+
+.vik-table .vik-exercise,
+.vik-legend .vik-exercise {
+	background-color: #7287fd;
+}
+
+.vik-table .vik-activity,
+.vik-legend .vik-activity {
+	background-color: #ea76cb;
+}
+
+.vik-table .vik-lesson,
+.vik-legend .vik-lesson {
+	background-color: #1e66f5;
+}
+
+.vik-table .vik-reading,
+.vik-legend .vik-reading {
+	background-color: #f2c744;
+}
+
+.vik-table .vik-video,
+.vik-legend .vik-video {
+	background-color: #3ca9e2;
+}
+
+a.vik-item {
+	transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+a.vik-item:hover {
+	box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.3);
+	transform: translateY(-1px);
+	/* box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3); */
+	/* cursor: pointer; */
+}
+
+.vik-item::before {
+	margin-right: 5px;
+}
+
+.vik-legend {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+	margin: 10px 0;
+	font-family: monospace;
+}
+
+.vik-legend li {
+	width: 100%;
+	/* text-align: center; */
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.vik-footer {
+	font-size: 0.7rem;
+	color: #666;
+}
+
+.vik-table th:nth-child(2),
+.vik-table td:nth-child(2) {
+	width: 20%;
+	vertical-align: top;
+}
+
+.vik-table th:nth-child(3),
+.vik-table td:nth-child(3),
+.vik-table th:nth-child(4),
+.vik-table td:nth-child(4) {
+	width: 40%;
+}
+
+.vik-table .vik-item.format-formative {
+	border-left: 5px solid #3ca9e2; /* blue for formative */
+}
+
+.vik-table .vik-item.format-summative {
+	border-left: 5px solid #fe640b; /* orange for summative */
+}
