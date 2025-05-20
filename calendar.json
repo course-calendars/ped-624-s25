@@ -55,12 +55,6 @@
 				"time": "15m"
 			},
 			{
-				"type": "assignment",
-				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
-				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
-				"time": "15m"
-			},
-			{
 				"type": "activity",
 				"title": "Discuss Glossary (part of CoI)",
 				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
@@ -120,6 +114,13 @@
 				"link": "",
 				"timing": "sync",
 				"time": "30m"
+			},
+			{
+				"type": "assignment",
+				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
+				"timing": "sync",
+				"time": "15m"
 			}
 		]
 	},
@@ -147,12 +148,6 @@
 				"title": "The Activated Classroom - A Pedagogy for EdTech",
 				"link": "https://youtu.be/0IfuGt5HHSs",
 				"time": "1h"
-			},
-			{
-				"type": "activity",
-				"title": "Begin adding Glossary entries",
-				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
-				"time": "1h"
 			}
 		],
 		"sync": [
@@ -167,12 +162,6 @@
 				"title": "How to evaluate a tool based on SAMR",
 				"link": "",
 				"time": "45m"
-			},
-			{
-				"type": "assignment",
-				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
-				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235&forceview=1",
-				"time": "30m"
 			},
 			{
 				"type": "activity",
@@ -204,6 +193,20 @@
 				"link": "https://moodle.usherbrooke.ca/mod/forum/view.php?id=3262255",
 				"timing": "async",
 				"time": "6h"
+			},
+			{
+				"type": "activity",
+				"title": "Begin adding Glossary entries",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "assignment",
+				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235&forceview=1",
+				"timing": "sync",
+				"time": "30m"
 			}
 		]
 	}
