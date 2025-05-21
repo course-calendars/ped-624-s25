@@ -4,11 +4,29 @@ Handlebars.registerHelper('lookupObjective', function (code) {
 	return objectiveLookup[code] || '';
 });
 
-Handlebars.registerHelper('currentWeekId', function (startDate, endDate) {
+Handlebars.registerHelper('currentWeekId', function (syncLabel) {
+	if (!syncLabel) return '';
+
+	const current = document.getElementById('current-week');
+	if (current) return '';
+
 	const today = new Date();
-	const start = new Date(startDate);
-	const end = new Date(endDate);
-	return today >= start && today <= end ? 'current-week' : '';
+	const currentYear = today.getFullYear();
+
+	// syncLabel is something like "May 29"
+	const parsedDate = new Date(`${syncLabel}, ${currentYear}`);
+	if (isNaN(parsedDate)) return '';
+
+	const todayOnly = new Date(
+		today.getFullYear(),
+		today.getMonth(),
+		today.getDate()
+	);
+
+	if (todayOnly <= parsedDate) {
+		return 'current-week';
+	}
+	return '';
 });
 
 Handlebars.registerHelper('eq', function (a, b) {
