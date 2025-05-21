@@ -57,10 +57,10 @@
 	border-bottom: 2px solid var(--accent-color);
 }
 
-.vik-table tbody tr#current-week .vik-week {
+/* .vik-table tbody tr#current-week .vik-week {
 	background-color: var(--accent-color);
 	color: white;
-}
+} */
 
 .vik-list ul li:not(:last-child) {
 	margin-bottom: 2px;
