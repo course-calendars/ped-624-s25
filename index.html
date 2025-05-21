@@ -31,7 +31,7 @@
 			<tbody>
 			{{#each this}}
 				<!-- Asynchronous Row -->
-				<tr id="{{currentWeekId startDate endDate}}">
+				<tr id="{{currentWeekId syncLabel}}">
 				<td class="vik-week">
 					Async
 					{{asyncLabel}}
@@ -47,13 +47,21 @@
 				<td class="vik-list">
 					<ul>
 					{{#each async}}
-						<li>
-						<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
-							{{title}}
-							{{#if note}}<small>{{note}}</small>{{/if}}
-							{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-						</a>
-						</li>
+						{{#if link}}
+							<li>
+								<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
+									{{title}}
+									{{#if note}}<small>{{note}}</small>{{/if}}
+									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								</a>
+							</li>
+						{{else}}
+							<li class="vik-item vik-{{type}}">
+								{{title}}
+								{{#if note}}<small>{{note}}</small>{{/if}}
+								{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+							</li>
+						{{/if}}
 					{{/each}}
 					</ul>
 				</td>
@@ -61,14 +69,23 @@
 					<ul>
 					{{#each assessments}}
 						{{#if (eq timing "async")}}
-						<li>
-							<a class="vik-item vik-{{type}} format-{{format}}" href="{{link}}" target="_blank">
-							{{title}}
-							{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-							{{#if note}}<small>{{note}}</small>{{/if}}
-							{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-							</a>
-						</li>
+							{{#if link}}
+								<li>
+									<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
+										{{title}}
+										{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
+										{{#if note}}<small>{{note}}</small>{{/if}}
+										{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+									</a>
+								</li>
+							{{else}}
+								<li class="vik-item vik-{{type}}">
+									{{title}}
+									{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
+									{{#if note}}<small>{{note}}</small>{{/if}}
+									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								</li>
+							{{/if}}
 						{{/if}}
 					{{/each}}
 					</ul>
@@ -85,12 +102,21 @@
 				<td class="vik-list">
 					<ul>
 					{{#each sync}}
-						<li>
-						<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
-							{{title}}
-							{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-						</a>
-						</li>
+						{{#if link}}
+							<li>
+								<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
+									{{title}}
+									{{#if note}}<small>{{note}}</small>{{/if}}
+									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								</a>
+							</li>
+						{{else}}
+							<li class="vik-item vik-{{type}}">
+								{{title}}
+								{{#if note}}<small>{{note}}</small>{{/if}}
+								{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+							</li>
+						{{/if}}
 					{{/each}}
 					</ul>
 				</td>
@@ -98,14 +124,23 @@
 					<ul>
 					{{#each assessments}}
 						{{#if (eq timing "sync")}}
-						<li>
-							<a class="vik-item vik-{{type}} format-{{format}}" href="{{link}}" target="_blank">
-							{{title}}
-							{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-							{{#if note}}<small>{{note}}</small>{{/if}}
-							{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-							</a>
-						</li>
+							{{#if link}}
+								<li>
+									<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
+										{{title}}
+										{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
+										{{#if note}}<small>{{note}}</small>{{/if}}
+										{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+									</a>
+								</li>
+							{{else}}
+								<li class="vik-item vik-{{type}}">
+									{{title}}
+									{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
+									{{#if note}}<small>{{note}}</small>{{/if}}
+									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								</li>
+							{{/if}}
 						{{/if}}
 					{{/each}}
 					</ul>
