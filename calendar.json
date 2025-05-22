@@ -187,7 +187,8 @@
 			},
 			{
 				"type": "activity",
-				"title": "Begin adding Glossary entries",
+				"title": "Glossary Entry #1",
+				"due": "DUE MAY 22",
 				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
 				"timing": "async",
 				"time": "1h"
@@ -204,7 +205,17 @@
 	{
 		"asyncLabel": "May 23–28",
 		"syncLabel": "May 29",
-		"objectives": ["4.1", "4.2", "4.3", "4.4", "5.4", "5.5", "5.6"],
+		"objectives": [
+			"4.1",
+			"4.2",
+			"4.3",
+			"5.4",
+			"5.5",
+			"5.6",
+			"6.1",
+			"6.2",
+			"6.3"
+		],
 		"async": [
 			{
 				"type": "reading",
@@ -253,10 +264,98 @@
 		"assessments": [
 			{
 				"type": "assignment",
-				"title": "Survey of Tools - First post by May 28",
+				"title": "Assessment #2 - Survey of Tools",
+				"note": "Post your tools on the forum",
+				"due": "DUE MAY 28",
 				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235&forceview=1",
 				"timing": "async",
 				"time": "10h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #2",
+				"due": "DUE MAY 29",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"timing": "async",
+				"time": "1h"
+			}
+		]
+	},
+	{
+		"asyncLabel": "May 30 – June 4",
+		"syncLabel": "June 5",
+		"objectives": [
+			"1.2",
+			"5.1",
+			"5.2",
+			"6.1",
+			"6.2",
+			"6.3",
+			"6.4",
+			"6.5",
+			"6.6"
+		],
+		"async": [
+			{
+				"type": "reading",
+				"title": "\"Assignment Design: Is AI In or Out?\" Penn State",
+				"link": "https://cetli.upenn.edu/resources/generative-ai/assignment-design-is-ai-in-or-out/",
+				"time": "1h"
+			},
+			{
+				"type": "reading",
+				"title": "\"AI-resistant assessments in higher education,\" Alkouk and Khlaif",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Alkouk%20and%20Khlaif%20-%202024%20-%20AI-resistant%20assessments%20in%20higher%20education%20Practical%20insights%20from%20faculty%20training%20workshops.pdf?forcedownload=1",
+				"time": "2h"
+			},
+			{
+				"type": "reading",
+				"title": "\"The artificial intelligence assessment scale (AIAS),\" Perkins",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Perkins%20et%20al.%20-%202024%20-%20The%20artificial%20intelligence%20assessment%20scale%20%28AIAS%29%20A%20framework%20for%20ethical%20integration%20of%20generati.pdf?forcedownload=1",
+				"time": "3h"
+			}
+		],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "AI: Citing, institutional policies, using it ethically, AI-human interactions, sustainability, tips & tricks, prompt design, accessibility, PD for teachers, etc.",
+				"time": "3h"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #1 - Journal",
+				"due": "DUE JUNE 4",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262233",
+				"timing": "async",
+				"time": "3h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #2",
+				"note": "Respond to two peers' posts",
+				"due": "DUE JUNE 1",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #2",
+				"note": "Post your self-reflection",
+				"due": "DUE JUNE 4",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #3",
+				"due": "DUE JUNE 5",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"timing": "async",
+				"time": "1h"
 			}
 		]
 	}
