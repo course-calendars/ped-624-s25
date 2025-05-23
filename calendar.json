@@ -146,12 +146,6 @@
 		],
 		"sync": [
 			{
-				"type": "activity",
-				"title": "Present your Padlet (group or individual) on IT availability on your campus, any surprises, evaluation of platforms",
-				"link": "https://moodle.usherbrooke.ca/mod/forum/view.php?id=3262255",
-				"time": "30m"
-			},
-			{
 				"type": "lesson",
 				"title": "How to evaluate a tool based on SAMR",
 				"time": "45m"
@@ -202,6 +196,13 @@
 				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
 				"timing": "async",
 				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Present your Padlet (group or individual) on IT availability on your campus, any surprises, evaluation of platforms",
+				"link": "https://moodle.usherbrooke.ca/mod/forum/view.php?id=3262255",
+				"timing": "sync",
+				"time": "30m"
 			},
 			{
 				"type": "assignment",
