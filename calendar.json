@@ -393,5 +393,60 @@
 				"time": "1h"
 			}
 		]
+	},
+	{
+		"asyncLabel": "June 6–11",
+		"syncLabel": "June 12",
+		"objectives": ["4.4", "4.5", "5.2", "5.3"],
+		"async": [
+			{
+				"type": "reading",
+				"title": "\"Copyright Matters,\" Noel & Snel",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Noel%20and%20Snel%20-%202016%20-%20Copyright%20Matters%21.pdf?forcedownload=1",
+				"time": "1h"
+			},
+			{
+				"type": "video",
+				"title": "What is Copyright in Canada? (EdPuzzle)",
+				"time": "30m"
+			},
+			{
+				"type": "video",
+				"title": "Copyright and Fair Dealing (EdPuzzle)",
+				"time": "30m"
+			}
+		],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "Discuss copyright and fair dealing",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Activity about copyright",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Share IT Learning Activity in small groups to give and receive peer feedback.",
+				"time": "1h"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #3 - Learning Activity (Draft)",
+				"due": "DUE JUNE 12",
+				"timing": "async",
+				"time": "16h"
+			},
+			{
+				"type": "quiz",
+				"title": "Kahoot on Glossary Terms",
+				"timing": "sync",
+				"time": "30m"
+			}
+		]
 	}
 ]
