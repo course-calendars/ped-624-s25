@@ -357,7 +357,7 @@
 				"type": "reading",
 				"title": "\"The artificial intelligence assessment scale (AIAS),\" Perkins",
 				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Perkins%20et%20al.%20-%202024%20-%20The%20artificial%20intelligence%20assessment%20scale%20%28AIAS%29%20A%20framework%20for%20ethical%20integration%20of%20generati.pdf?forcedownload=1",
-				"time": "3h"
+				"time": "2h"
 			}
 		],
 		"sync": [
@@ -374,7 +374,7 @@
 				"due": "DUE JUNE 4",
 				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262233",
 				"timing": "async",
-				"time": "3h"
+				"time": "4h"
 			},
 			{
 				"type": "assignment",
@@ -400,7 +400,14 @@
 				"due": "DUE JUNE 5",
 				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
 				"timing": "async",
-				"time": "1h"
+				"time": "50m"
+			},
+			{
+				"type": "Quiz",
+				"title": "Stop Start Continue",
+				"link": "https://moodle.usherbrooke.ca/mod/feedback/view.php?id=3278510",
+				"timing": "async",
+				"time": "10m"
 			}
 		]
 	},
