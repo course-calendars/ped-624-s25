@@ -408,8 +408,9 @@
 				"time": "50m"
 			},
 			{
-				"type": "Quiz",
+				"type": "quiz",
 				"title": "Stop Start Continue",
+				"note": "Anonymous feedback on the course so far",
 				"link": "https://moodle.usherbrooke.ca/mod/feedback/view.php?id=3278510",
 				"timing": "async",
 				"time": "10m"
