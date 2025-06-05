@@ -423,6 +423,12 @@
 		"objectives": ["4.4", "4.5", "5.2", "5.3"],
 		"async": [
 			{
+				"type": "video",
+				"title": "A Student's Guide to Navigating Perusall",
+				"link": "https://youtu.be/1_gR6E3dE-c",
+				"time": "30m"
+			},
+			{
 				"type": "reading",
 				"title": "\"Copyright Matters,\" Noel & Snel",
 				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Noel%20and%20Snel%20-%202016%20-%20Copyright%20Matters%21.pdf?forcedownload=1",
@@ -430,12 +436,9 @@
 			},
 			{
 				"type": "video",
-				"title": "What is Copyright in Canada? (EdPuzzle)",
-				"time": "30m"
-			},
-			{
-				"type": "video",
-				"title": "Copyright and Fair Dealing (EdPuzzle)",
+				"title": "2 EdPuzzle Videos on Copyright and Fair Dealing",
+				"note": "Make sure to watch both videos",
+				"link": "https://edpuzzle.com/join/losrugu",
 				"time": "30m"
 			}
 		],
@@ -463,7 +466,16 @@
 				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262239&forceview=1",
 				"due": "DUE JUNE 12",
 				"timing": "async",
-				"time": "16h"
+				"time": "6h"
+			},
+			{
+				"type": "activity",
+				"title": "\"Copyright Matters,\" Noel & Snel",
+				"note": "Annotate on Perusall",
+				"link": "https://app.perusall.com/join/singh-qjbeh",
+				"due": "DUE JUNE 12",
+				"timing": "async",
+				"time": "1h"
 			},
 			{
 				"type": "quiz",
