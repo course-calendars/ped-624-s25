@@ -328,6 +328,13 @@
 				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
 				"timing": "async",
 				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Digital Competency Superheroes (Miro)",
+				"link": "https://miro.com/app/board/uXjVIwDfAMU=/?share_link_id=183174370145",
+				"timing": "sync",
+				"time": "30m"
 			}
 		]
 	},
