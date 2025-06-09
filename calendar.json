@@ -370,6 +370,16 @@
 				"type": "lesson",
 				"title": "AI: Citing, institutional policies, using it ethically, AI-human interactions, sustainability, tips & tricks, prompt design, accessibility, PD for teachers, etc.",
 				"time": "3h"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 4 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%204%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 4 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/4"
 			}
 		],
 		"assessments": [
