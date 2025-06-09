@@ -367,9 +367,20 @@
 		],
 		"sync": [
 			{
+				"type": "quiz",
+				"title": "Go over CAT feedback",
+				"link": "https://moodle.usherbrooke.ca/mod/feedback/view.php?id=3278510",
+				"time": "30m"
+			},
+			{
 				"type": "lesson",
 				"title": "AI: Citing, institutional policies, using it ethically, AI-human interactions, sustainability, tips & tricks, prompt design, accessibility, PD for teachers, etc.",
-				"time": "3h"
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Digital Citizenship and Digital Resiliency",
+				"time": "1h"
 			},
 			{
 				"type": "lesson",
@@ -424,6 +435,13 @@
 				"link": "https://moodle.usherbrooke.ca/mod/feedback/view.php?id=3278510",
 				"timing": "async",
 				"time": "10m"
+			},
+			{
+				"type": "activity",
+				"title": "Digital Resiliency Toolkit (Canva)",
+				"link": "https://www.canva.com/design/DAGpTxfCDkk/4_5RuEPBEd2Mo21fc_KfXg/edit?utm_content=DAGpTxfCDkk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+				"timing": "sync",
+				"time": "30m"
 			}
 		]
 	},
