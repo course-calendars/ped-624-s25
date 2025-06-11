@@ -511,12 +511,6 @@
 				"due": "DUE JUNE 12",
 				"timing": "async",
 				"time": "3h"
-			},
-			{
-				"type": "quiz",
-				"title": "Kahoot on Glossary Terms",
-				"timing": "sync",
-				"time": "30m"
 			}
 		]
 	},
@@ -553,6 +547,12 @@
 				"due": "DUE JUNE 19",
 				"timing": "async",
 				"time": "5h"
+			},
+			{
+				"type": "quiz",
+				"title": "Kahoot on Glossary Terms",
+				"timing": "sync",
+				"time": "30m"
 			}
 		]
 	},
