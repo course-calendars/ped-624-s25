@@ -103,10 +103,18 @@ Handlebars.registerHelper(
 		let totalMinutes = 0;
 
 		function extractMinutes(item) {
-			const match = (item.time || '').match(/^(\d+)(h|m)$/);
-			if (!match) return 0;
-			const value = parseInt(match[1], 10);
-			return match[2] === 'h' ? value * 60 : value;
+			const timeStr = item.time || '';
+			const regex = /(\d+(?:\.\d+)?)(h|m)/g;
+			let match;
+			let totalMinutes = 0;
+
+			while ((match = regex.exec(timeStr)) !== null) {
+				const value = parseFloat(match[1]);
+				const unit = match[2];
+				totalMinutes += unit === 'h' ? value * 60 : value;
+			}
+
+			return totalMinutes;
 		}
 
 		if (Array.isArray(activities)) {
