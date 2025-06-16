@@ -87,7 +87,7 @@
 		"assessments": [
 			{
 				"type": "quiz",
-				"title": "TPACK Survey",
+				"title": "Pre TPACK Survey",
 				"note": "Do this quiz before you read any articles!",
 				"due": "DUE MAY 13",
 				"link": "https://forms.gle/2U4QgppsS9f6n9WB7",
@@ -556,13 +556,22 @@
 				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3281588&forceview=1",
 				"due": "DUE JUNE 19",
 				"timing": "async",
-				"time": "4.5h"
+				"time": "4h"
 			},
 			{
 				"type": "quiz",
 				"title": "Perusall Feedback (Microsoft Forms)",
 				"note": "How did you like it?",
 				"link": "https://forms.office.com/r/dzRPgRXPhT",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "quiz",
+				"title": "Post TPACK Survey",
+				"note": "Yup, do it again!",
+				"due": "DUE JUNE 18",
+				"link": "https://forms.gle/qeuBYRRiFLEyd1c86",
 				"timing": "async",
 				"time": "30m"
 			},
