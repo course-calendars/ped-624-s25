@@ -556,7 +556,16 @@
 				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3281588&forceview=1",
 				"due": "DUE JUNE 19",
 				"timing": "async",
-				"time": "4h"
+				"time": "3h"
+			},
+			{
+				"type": "activity",
+				"title": "Assessment #4 Peer Feedback Workshop",
+				"note": "Upload your draft here before class.",
+				"link": "https://moodle.usherbrooke.ca/mod/workshop/view.php?id=3289324",
+				"due": "DUE JUNE 19",
+				"timing": "async",
+				"time": "1h"
 			},
 			{
 				"type": "quiz",
