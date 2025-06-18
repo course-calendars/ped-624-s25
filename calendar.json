@@ -612,7 +612,15 @@
 				"link": "https://moodle.usherbrooke.ca/mod/quiz/view.php?id=3289325&forceview=1",
 				"due": "DUE JULY 04",
 				"timing": "async",
-				"time": "1h"
+				"time": "30m"
+			},
+			{
+				"type": "quiz",
+				"title": "Course Evaluation",
+				"note": "This helps me improve the course for future students!",
+				"link": "http://www.usherbrooke.ca/evaluation-enseignement/",
+				"timing": "async",
+				"time": "30m"
 			}
 		]
 	}
