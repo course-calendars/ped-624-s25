@@ -539,6 +539,16 @@
 				"type": "activity",
 				"title": "Share AI assessment redesign in small groups to give and receive peer feedback.",
 				"time": "1.5h"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 6 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%206%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 6 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/6"
 			}
 		],
 		"assessments": [
